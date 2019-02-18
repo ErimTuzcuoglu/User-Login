@@ -1,0 +1,14 @@
+Varsayımlar ve tasarım tercihleri - Assumptions and design decisions
+
+Hem frontend hemde backend tarafında yapıyı mümkün olduğunca mvc (model-view-controller) şekline benzetmeye çalıştım.Bu şekilde hem karmaşıklığı azaltmayı hemde ileride eklenebilecek yeni özellikler için daha kullanışlı bir şekle çevirmeyi amaçladım.Nodejs ile daha uyumlu bulduğumdan Mongodb veritabanı kullandım.Ayrıca yeni bir teknoloji ve daha modüler bir tasarım (componentler) sağladığı için React.js ile frontend kısmını yazdım.
+
+
+Senaryolar - Test Scenarios
+
+Giriş yapmamış kullanıcılar:
+1-Kaydolabilir veya giriş yapabilir.
+2-Şifremi unuttum bölümünden mail adreslerini yazarak, eğer kayıtlı kullanıcı ise email adresine parola sıfırlama kodu alabilir.
+
+Giriş yapmış kullanıcılar:
+1-Eğer admin türünden ise arayüz üzerinden admin sayfasına gidebilir.
+2-Her türden kullanıcı(Admin ve User) çıkış (logout) yapabilir.

@@ -1,0 +1,1 @@
+Database Script yok.Uygulama çalıştırılıp veritabanı üzerinde işlem yapıldığında otomatik olarak oluşturulur.Backend kaynak kodları içerisinde src/models/UserSchema.js içerisinden kullanıcı şemasını görüntüleyebilirsiniz.

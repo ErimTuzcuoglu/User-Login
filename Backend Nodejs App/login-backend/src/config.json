@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb://localhost/userapi",
+    "secret": "09qrjjwef923jnrge$5ndjwk"
+}
